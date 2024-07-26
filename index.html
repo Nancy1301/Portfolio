@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Nancy Bhargava Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+
+	<style>
+		/*======================================
+//--//-->   ABOUT
+======================================*/
+
+		.white {
+			color: white;
+		}
+
+		.icon-size {
+			width: 0.70cm;
+			height: 0.70cm
+		}
+
+		.git-icon {
+			height: 60px;
+			width: 60px;
+			position: absolute;
+			right: 5px;
+			bottom: 20px;
+		}
+
+		.wido-icon {
+			border-radius: 50%;
+			height: 50px;
+			width: 50px;
+			position: absolute;
+			right: 5px;
+			bottom: 20px;
+		}
+
+		.uis-size {
+			height: 100px;
+			width: 100px;
+			border-radius: 50%;
+			/* margin-left: 100px; */
+			position: absolute;
+			right: 20px;
+			top: 20px;
+		}
+
+		.icon-text {
+			padding-right: 10px;
+			color: #ccc;
+			font-size: 15px;
+			font-weight: bold;
+		}
+
+		.about-mf .box-shadow-full {
+			padding-top: 4rem;
+			padding-bottom: 4rem;
+		}
+
+		.about-mf .about-img {
+			margin-bottom: 2rem;
+		}
+
+		.about-mf .about-img img {
+			margin-left: 10px;
+		}
+
+
+		.skill-mf .progress {
+			/* background-color: #cde1f8; */
+			margin: .5rem 0 1.2rem 0;
+			border-radius: 0;
+			height: .7rem;
+		}
+
+		.skill-mf .progress .progress-bar {
+			height: .7rem;
+			background-color: #ffbd39;
+		}
+
+
+		/* Animation styles */
+		#typing-animation {
+			position: relative;
+			font-size: 30px;
+			font-weight: bold;
+			color: rgb(255, 255, 255);
+			overflow: hidden;
+			white-space: nowrap;
+			animation: typing 3s steps(20, end) infinite;
+		}
+
+		#typing-animation:before {
+			content: "";
+			/* position: absolute; */
+			top: 0;
+			left: 0;
+			width: 0;
+			height: 100%;
+			background-color: #ccc;
+			animation: typing-cursor 0.5s ease-in-out infinite;
+		}
+
+		@keyframes typing {
+			from {
+				width: 0;
+			}
+
+			to {
+				width: 100%;
+			}
+		}
+
+		@keyframes typing-cursor {
+			from {
+				width: 5px;
+			}
+
+			to {
+				width: 0;
+			}
+		}
+
+
+		/* project image zoom effect */
+
+		.zoom-effect {
+			overflow: hidden;
+			transition: transform 0.3s ease-out;
+		}
+
+		.zoom-effect:hover {
+			transform: scale(1.1);
+		}
+	</style>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Nancy Bhargava</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#education-section" class="nav-link"><span>Education</span></a></li>
+					<li class="nav-item"><a href="#experience-section" class="nav-link"><span>Work Experience</span></a>
+					</li>
+					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section id="home-section" class="hero">
+		<div class="home-slider  owl-carousel">
+			<div class="slider-item ">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+						data-scrollax-parent="true">
+						<div class="one-third js-fullheight order-md-last img"
+							style="background-image:url(images/profile_image.jpeg);">
+							<div class="overlay"></div>
+						</div>
+						<div class="one-forth d-flex  align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">Hello!</span>
+								<h1 class="mb-4 mt-3">I'm <span>Nancy Bhargava</span></h1>
+								<br>
+								<h6>MS CS Student @ <a href="https://www.uis.edu/"
+										style="text-decoration: underline;">University of Illinois Springfield</a></h6>
+								<br>
+								<h6>Data Enthusiast | Problem Solver </h6>
+								<br>
+								<p><a href="https://www.linkedin.com/in/nancyb1301/"
+										class="btn btn-primary py-3 px-4">LinkedIn</a>
+									<a href="https://github.com/Nancy1301"
+										class="btn btn-white btn-outline-white py-3 px-4">My works</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+		<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+					<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+
+						<div class="overlay">
+							<h3>My Skills</h3>
+							<div class="row">
+								<div class="flex items-center px-4 py-2 mr-2 mt-2 rounded font-semibold">
+
+									<div style="padding-bottom: 20px;" class="flex items-center">
+										<img src="images/python.png" class="icon-size">
+										<span class="icon-text">Python</span>
+
+										<img src="tech-Icons/r.png" class="icon-size">
+										<span class="icon-text">R</span>
+
+										<img src="tech-Icons/java-script.png" class="icon-size">
+										<span class="icon-text">JavaScript</span>
+
+									</div>
+
+									<div style="padding-bottom: 20px;" class="flex items-center">
+										<img src="tech-Icons/angular.png" class="icon-size">
+										<span class="icon-text">Angular</span>
+
+										<img src="tech-Icons/html-5.png" class="icon-size">
+										<span class="icon-text">HTML</span>
+
+										<img src="tech-Icons/css-3.png" class="icon-size">
+										<span class="icon-text">CSS</span>
+									</div>
+
+									<div style="padding-bottom: 20px;" class="flex items-center">
+										<img src="tech-Icons/artificial-intelligence.png" class="icon-size">
+										<span class="icon-text">LLM | RAG</span>
+
+										<img src="tech-Icons/interpretation.png" class="icon-size">
+										<span class="icon-text">Data Interpretation</span>
+
+										<img src="tech-Icons/stats.png" class="icon-size">
+										<span class="icon-text">Statistics</span>
+									</div>
+
+
+									<div style="padding-bottom: 20px;" class="flex items-center">
+										<img src="tech-Icons/numpy.png" class="icon-size">
+										<span class="icon-text">NumPy</span>
+
+										<img src="tech-Icons/pandas.png" class="icon-size">
+										<span class="icon-text">Pandas</span>
+
+										<img src="tech-Icons/matplotlib.png" class="icon-size">
+										<span class="icon-text">Matplotlib</span>
+									</div>
+
+
+									<div style="padding-bottom: 20px;" class="flex items-center">
+										<img src="tech-Icons/keras.png" class="icon-size">
+										<span class="icon-text">Keras</span>
+
+										<img src="tech-Icons/seaborn.png" class="icon-size">
+										<span class="icon-text">Seaborn</span>
+
+										<img src="tech-Icons/tensorflow.png" class="icon-size">
+										<span class="icon-text">Tensorflow</span>
+									</div>
+
+
+									<div style="padding-bottom: 20px;" class="flex items-center">
+										<img src="tech-Icons/sckit-learn.png" class="icon-size">
+										<span class="icon-text">SckitLearn</span>
+
+										<img src="tech-Icons/tableau.jpeg" class="icon-size">
+										<span class="icon-text">Tableau</span>
+
+										<img src="tech-Icons/mysql.png" class="icon-size">
+										<span class="icon-text">RDBMS | MySQL</span>
+									</div>
+									<div>
+										<img style="align-items: center; height: 150px;"
+											src="tech-Icons/creativity.png">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+
+								<!-- <h1 class="big">About</h1> -->
+								<h2 class="mb-4">About Me</h2>
+								<p>Hi, I’m <strong>Nancy!</strong> I’m a proactive, self-motivated, and ambitious
+									individual with a strong passion for innovation, technology, and the field of Data
+									Science</p>
+								<br>
+								<p>I enjoy leveraging my coding skills to uncover valuable insights from complex data
+									and build frameworks
+									for pattern recognition. I believe transforming raw data into actionable findings is
+									essential for a company
+									to excel, innovate, and adapt in a dynamic environment.</p>
+								<br>
+								<p>Beyond my technical pursuits, I enjoy reading and watching movies. I enjoy connecting
+									with new people as it
+									offers diverse perspectives. I’m also an avid sports fan and relish playing
+									badminton and table tennis..
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ftco-section ftco-no-pb" id="education-section">
+		<div class="container">
+			<div class="row">
+				<h1 class="big-4">Education</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<img src="images/uis-logo.png">
+						<span class="date">Master's in Computer Science</span>
+						<h6>August 2023 - May 2025</h6>
+						<span class="position">University Of Illinois, Springfield</span>
+						<p style="color: white" class="mt-4"><strong>CourseWork </strong>: Data Visualization | Machine
+							learning & Statistics | Database Management</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<img src="images/muj-logo.png">
+						<span style="font-size: 24px;" class="date">Bachelor's in Information Technology</span>
+						<h6>July 2018 - November 2022</h6>
+						<span class="position">Manipal University Jaipur</span>
+						<p style="color: white" class="mt-4"><strong>CourseWork </strong>: Data Structures and
+							Algorithms | RDBMS | Data Science | OS</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section ftco-no-pb" id="experience-section">
+		<div class="container">
+			<div class="row">
+				<h1 class="big-4">Experience</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">University Of Illinois</span>
+						<img class="uis-size" src="images/uis.png">
+						<h5>Graduate Research Assistant</h5>
+						<span class="position">Nov 2023 - May 2024</span>
+						<p class="mt-4">Developed a Shows Recommendation system for our University's Performing Arts
+							Centre using OpenAI GPT models, Streamlit, and LLMs.
+						<ul>
+							<li>Boosted user engagement by 35%, leading to a projected $10,000 annual revenue increase
+								from better retention and interaction.</li>
+							<li>Created a Streamlit dashboard for 200MB data uploads, cutting data processing time by
+								25%.</li>
+							<li>Enhanced recommendation accuracy using GPT and RAG, raising user satisfaction by 20% and
+								potentially adding $15,000 in annual revenue from repeat customers and referrals.</li>
+						</ul>
+						<a href="https://github.com/Nancy1301">
+							<img class="git-icon" src="images/git.png" alt="Git Icon">
+						</a>
+
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Comviva</span>
+						<img class="uis-size" src="images/comviva.png">
+						<h5>Product Developer</h5>
+						<span class="position">Jan 2022- July 2023</span>
+						<p class="mt-4">Developed a Digital Media Experience Platform for wido.tv, enhancing user
+							interfaces and
+							integrating machine learning features.
+						<ul>
+							<li>Developed user interfaces with login, dashboards, media playback, profile management,
+								and payment integration for ML applications.</li>
+							<li>Improved models, boosting content recommendation accuracy by 25%,
+								personalized experiences by 20%, and sentiment analysis precision by 30%.</li>
+							<li>Leveraged Google Analytics for data analysis, achieving 92% code coverage and a 30%
+								increase in active user growth in an Agile environment.</li>
+						</ul>
+						<a href="https://wido.tv/">
+							<img class="wido-icon" src="images/wido-tv.jpeg">
+						</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="ftco-section" id="project-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="row">
+					<h1 class="big-4">Projects</h1>
+					<div class="underline"></div>
+				</div>
+			</div>
+			<div class="row d-flex">
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/Nancy1301/Prediction-of-Real-Fake-job-listings"
+							class="block-20 zoom-effect" style="background-image: url('images/scan-job.png');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="https://github.com/Nancy1301/Prediction-of-Real-Fake-job-listings">Predicting
+									Real-Fake Job Listings</a></h3>
+							<p>Conducted data preprocessing and feature engineering on the Kaggle Dataset.
+								Utilized regression techniques, decision trees, and SVM, achieving 93% accuracy with the
+								Deep Learning model- ANN.
+								Validated and optimized results via cross-validation and hyperparameter tuning.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/Nancy1301/Green-Doctor" class="block-20 zoom-effect"
+							style="background-image: url('images/crop-disease.png');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a href="https://github.com/Nancy1301/Green-Doctor">Green Doctor: Plant
+									Disease detecting App</a></h3>
+							<p>Developed a user-friendly mobile app for 500 farmers to identify crop diseases using deep
+								learning techniques, achieving 88.5% accuracy with ResNet.
+								The app, deployed via Android Studio, ensures accessible and cost-effective disease
+								treatment solutions.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry">
+						<a href="https://github.com/Nancy1301/SkinLesion_Classification/tree/main"
+							class="block-20 zoom-effect" style="background-image: url('images/skin-lesion.jpeg');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="https://github.com/Nancy1301/SkinLesion_Classification/tree/main">Skin Lesions
+									Classification Prediction</a></h3>
+							<p>Conducted image analysis and performed Exploratory Data Analysis and image
+								pre-processing.
+								Utilized Convolutional Neural Networks for initial predictions and achieved superior
+								results through transfer
+								learning techniques, with the ResNet model delivering the highest accuracy at 77%.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<!-- added justify-content-center to center align the last two projects -->
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/Nancy1301/The-Shelf/tree/master" class="block-20 zoom-effect"
+							style="background-image: url('images/lib-manage.jpeg');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a href="https://github.com/Nancy1301/The-Shelf/tree/master">The Shelf:
+									Library Management System</a></h3>
+							<p>Created a library management system to streamline book tracking, member management, and
+								borrowing processes.
+								Implemented a user-friendly interface and a robust back-end with a relational database
+								for efficient data
+								handling.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/Nancy1301/Apparel-Recommendation" class="block-20 zoom-effect"
+							style="background-image: url('images/apparel.jpeg');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a href="https://github.com/Nancy1301/Apparel-Recommendation">Apparel
+									Recommendation System</a></h3>
+							<p>Created an apparel recommendation system using collaborative and content-based filtering
+								to provide personalized clothing suggestions. Implemented with k-nearest neighbors and
+								matrix factorization, the system enhanced user engagement and sales by delivering
+								tailored recommendations.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	</section>
+
+
+
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h2 class="mb-4">Contact Me</h2>
+					<p>Below are the details to reach out to me!</p>
+				</div>
+			</div>
+
+			<div class="row d-flex contact-info mb-5">
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-map-signs"></span>
+						</div>
+						<h3 class="mb-4">Address</h3>
+						<p>Springfield, Illinois</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-paper-plane"></span>
+						</div>
+						<h3 class="mb-4">Email Address</h3>
+						<p><a href="mailto:info@yoursite.com">nancybhargava1301@gmail.com</a></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-globe"></span>
+						</div>
+						<h3 class="mb-4">Download Resume</h3>
+						<p><a
+								href="https://drive.google.com/file/d/1jUebFDHCHn7ALMYDlhGpWQN2lRwHbxJQ/view?usp=drive_link">resumelink</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-globe"></span>
+						</div>
+						<h3 class="mb-4">Kaggle</h3>
+						<p><a href="https://www.kaggle.com/">Profile Link</a></p>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
